@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Employee Test",
+      "setup": "",
+      "run": "make; ./EmployeeTesting",
+      "input": "",
+      "output": "Testing Employee default constructor:\r\nInitial print():\r\nPrinting information for employee -1:\r\n Years Employed: -1\r\n Hourly Rate: -1\r\n Hours Worked: -1\r\nCalculated Pay: 1\r\nAnniversary Test: Congratulations to employee -1 on 0 year(s) at company!\r\nFinal print():\r\nPrinting information for employee -1:\r\n Years Employed: 0\r\n Hourly Rate: -1.002\r\n Hours Worked: -1\r\n\r\n\r\nTesting Employee parameterized constructor:\r\nInitial print():\r\nPrinting information for employee 1248:\r\n Years Employed: 2\r\n Hourly Rate: 15.23\r\n Hours Worked: 3\r\nCalculated Pay: 45.69\r\nAnniversary Test: Congratulations to employee 1248 on 3 year(s) at company!\r\nFinal print():\r\nPrinting information for employee 1248:\r\n Years Employed: 3\r\n Hourly Rate: 15.2605\r\n Hours Worked: 3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Supervisor Test",
+      "setup": "",
+      "run": "make; ./EmployeeTesting",
+      "input": "",
+      "output": "Testing Supervisor default constructor:\r\nInitial print():\r\nPrinting information for employee -1:\r\n Years Employed: -1\r\n Hourly Rate: -1\r\n Hours Worked: -1\r\n Number Supervised: -1\r\nCalculated Pay: 0.99\r\nAnniversary Test: Congratulations to employee -1 on 0 year(s) at company!\r\nFinal print():\r\nPrinting information for employee -1:\r\n Years Employed: 0\r\n Hourly Rate: -1.002\r\n Hours Worked: -1\r\n Number Supervised: -1\r\n\r\n\r\nTesting Supervisor parameterized constructor:\r\nInitial print():\r\nPrinting information for employee 422:\r\n Years Employed: 9\r\n Hourly Rate: 55.44\r\n Hours Worked: 20\r\n Number Supervised: 52\r\nCalculated Pay: 1685.38\r\nAnniversary Test: Congratulations to employee 422 on 10 year(s) at company!\r\nFinal print():\r\nPrinting information for employee 422:\r\n Years Employed: 10\r\n Hourly Rate: 55.5509\r\n Hours Worked: 20\r\n Number Supervised: 52",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Officer Test",
+      "setup": "",
+      "run": "make; ./EmployeeTesting",
+      "input": "",
+      "output": "Testing Officer default constructor:\r\nInitial print():\r\nPrinting information for employee -1:\r\n Years Employed: -1\r\n Hourly Rate: -1\r\n Hours Worked: -1\r\n Evilness: 500\r\nCalculated Pay: -499\r\nAnniversary Test: Congratulations to employee -1 on 0 year(s) at company!\r\nFinal print():\r\nPrinting information for employee -1:\r\n Years Employed: 0\r\n Hourly Rate: -1.002\r\n Hours Worked: -1\r\n Evilness: 500\r\n\r\n\r\nTesting Officer parameterized constructor:\r\nInitial print():\r\nPrinting information for employee 2:\r\n Years Employed: 94\r\n Hourly Rate: 10.859\r\n Hours Worked: 2\r\n Evilness: 9000.1\r\nCalculated Pay: 18021.9\r\nAnniversary Test: Congratulations to employee 2 on 95 year(s) at company!\r\nFinal print():\r\nPrinting information for employee 2:\r\n Years Employed: 95\r\n Hourly Rate: 10.8807\r\n Hours Worked: 2\r\n Evilness: 9000.1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
