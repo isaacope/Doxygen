@@ -2,9 +2,9 @@
  * @file main.cpp
  * @author Isaac Copeland
  * @date 2022-03-10
- * @brief prints data for employees
+ * @brief driver code for the Business Corp employee management program
  * 
- * This program prints data for employees of Business Corp depending on the employee's position
+ * This program prints data for employees of Business Corp depending on the employee's position.
  */
 
 #include <iostream>
@@ -20,9 +20,7 @@ using namespace std;
  * takes in an Employee or derived object to ensure each method works properly
  *
  * @param Employee & e the Employee object to be tested
- * @pre 
  * @return void tests each method
- * @post 
  * 
  */
 void runEmployeeTests(Employee & e);

@@ -2,9 +2,9 @@
  * @file Employee.cpp
  * @author Isaac Copeland
  * @date 2022-03-09
- * @brief implementation of Employee
+ * @brief source code for Employee
  * 
- * this file holds the implementation for the methods of class Employee
+ * This file holds the implementation for the methods of Employee.
  */
 
 #include "Employee.h"
@@ -12,13 +12,6 @@
 
 using namespace std;
 
-/**
- * default constructor assigns all prviate member variables to -1
- *
- * @pre 
- * @post 
- * 
- */
 Employee::Employee() {
   ID = -1;
   years = -1;
@@ -26,17 +19,6 @@ Employee::Employee() {
   hoursWorked = -1;
 }
 
-/**
- * paramaterized constructor sets all private member variables to arguments passed in
- *
- * @param int ID employee ID
- * @param int years years employed
- * @param double hourlyRate pay per hour
- * @param float hoursWorked hours worked today
- * @pre 
- * @post 
- * 
- */
 Employee::Employee(int ID, int years, double hourlyRate, float hoursWorked) {
   this->ID = ID;
   this->years = years;
@@ -44,14 +26,6 @@ Employee::Employee(int ID, int years, double hourlyRate, float hoursWorked) {
   this->hoursWorked = hoursWorked;
 }
 
-/**
- * increments years by one and give 0.2% raise to employee
- *
- * @pre 
- * @return void prints a congratulation message as well
- * @post 
- * 
- */
 void Employee::anniversary() {
   years++;
   double raise = hourlyRate * 0.002;
@@ -59,26 +33,10 @@ void Employee::anniversary() {
   cout << "Congratulations to employee " << ID << " on " << years << " year(s) at company!" << endl;
 }
 
-/**
- * calculates pay based on hours worked today
- *
- * @pre 
- * @return double amount recieved for today's work
- * @post 
- * 
- */
 double Employee::calculatePay() {
   return hourlyRate * hoursWorked;
 }
 
-/**
- * prints member variable information
- *
- * @pre 
- * @return void outputs values of ID, years, hourlyRate, and hoursWorked
- * @post 
- * 
- */
 void Employee::print() {
   cout << "Printing information for employee " << ID << ':'
        << "\n Years Employed: " << years

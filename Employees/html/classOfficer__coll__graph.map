@@ -1,0 +1,4 @@
+<map id="Officer" name="Officer">
+<area shape="rect" id="node1" title="an officer of Business Corp" alt="" coords="16,80,81,107"/>
+<area shape="rect" id="node2" href="$classEmployee.html" title="an employee of Business Corp" alt="" coords="5,5,92,32"/>
+</map>

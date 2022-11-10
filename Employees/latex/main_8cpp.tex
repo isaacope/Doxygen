@@ -1,0 +1,58 @@
+\hypertarget{main_8cpp}{}\doxysection{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.cpp@{main.cpp}}
+
+
+driver code for the Business Corp employee management program  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Employee.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Supervisor.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Officer.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Maintenance.\+h\char`\"{}}\newline
+Include dependency graph for main.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8cpp_a9ccea1912d6e2275d5612e294919d113}{run\+Employee\+Tests}} (\mbox{\hyperlink{classEmployee}{Employee}} \&e)
+\item 
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+driver code for the Business Corp employee management program 
+
+\begin{DoxyAuthor}{Author}
+Isaac Copeland 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2022-\/03-\/10
+\end{DoxyDate}
+This program prints data for employees of Business Corp depending on the employee\textquotesingle{}s position. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a9ccea1912d6e2275d5612e294919d113}\label{main_8cpp_a9ccea1912d6e2275d5612e294919d113}} 
+\index{main.cpp@{main.cpp}!runEmployeeTests@{runEmployeeTests}}
+\index{runEmployeeTests@{runEmployeeTests}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{runEmployeeTests()}{runEmployeeTests()}}
+{\footnotesize\ttfamily void run\+Employee\+Tests (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEmployee}{Employee}} \&}]{e }\end{DoxyParamCaption})}
+
+takes in an \mbox{\hyperlink{classEmployee}{Employee}} or derived object to ensure each method works properly
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{classEmployee}{Employee}}} & \& e the \mbox{\hyperlink{classEmployee}{Employee}} object to be tested \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void tests each method 
+\end{DoxyReturn}

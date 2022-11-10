@@ -1,22 +1,22 @@
 /**
- * @file Maintenace.h
+ * @file Maintenance.h
  * @author Isaac Copeland
  * @date 2022-03-10
- * @brief maintenance class definition
+ * @brief header file for Maintenance
  * 
- * this file holds the definition for child class "Maintenance"
+ * This file holds the definition for child class "Maintenance".
  */
 
-#ifndef MAINTENACE_H
-#define MAINTENACE_H
+#ifndef MAINTENANCE_H
+#define MAINTENACNE_H
 
 #include "Employee.h"
 
 /**
- * an employee of Business Corp in the position of maintenance
+ * This class represents a maintenance employee of Business Corp
  *
- * @class Maintenance Maintenace.h "hw07-business-corp-employee-management-system-isaacope/Maintenace.h"
- * @brief a maintenance employee
+ * @class Maintenance Maintenance.h "Employee/Maintenance.h"
+ * @brief a maintenance employee of Business Corp
  *
  */
 class Maintenance : public Employee {
@@ -24,10 +24,43 @@ class Maintenance : public Employee {
   int issuesSolved;
   
  public:
+  
+/**
+ * a default constructor to set all member variables to default values
+ *
+ * @post all member variables are set to -1
+ * 
+ */
   Maintenance();
+
+/**
+ * a parameterized constructor to sets all member variables to corresponding arguments
+ *
+ * @param int ID the employee's ID
+ * @param int years the amount of years employee has worked at company
+ * @param double hourlyRate pay by hour
+ * @param float hoursWorked hours worked today
+ * @param int issuesSolved the number of issues Maintenance person has solved
+ * @post all member variables are assigned appropriate values
+ * 
+ */
   Maintenance(int ID, int years, double hourlyRate, float hoursWorked, int issuesSolved);
+
+/**
+ * mathod to determine the pay of maintenance person based on issuesSolved
+ *
+ * @return double the earned pay
+ * 
+ */
   double calculatePay();
+
+/**
+ * method to print the maintenance employee data
+ *
+ * @return void the data is displayed 
+ * 
+ */
   void print();	   
 };
 
-#endif //MAINTENACE_H
+#endif //MAINTENANCE_H

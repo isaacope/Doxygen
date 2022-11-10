@@ -1,4 +1,4 @@
-# HW07 - Business Corp Employee Management System
+# Business Corp Employee Management System
 Name: Isaac Copeland
 Date: 3/16/2022
 
@@ -21,10 +21,7 @@ With a complete Makefile, compile by entering "make" on the command line. Execut
 "./EmployeeTesting" to run program after compilation in the terminal. The program expects no input.
 
 ## Notes
-Any extra notes, such as:
 * The tests for each object runs as expected.
-* This program only supports 3 positions of Buisness Corp staff.
+* This program supports 3 positions of Buisness Corp staff.
 * The Maintenance class could have supported an access code, but simplicity limited it to the number of issues a maintenance employee has solved.
-* The Maintenance class is an extra credit item.
-
-You may want to check out a [GitHub Markdown Guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).  Also, emojis! :tada: :unicorn: :octocat:
+* The Maintenance class is a new position offered at Businees Corp!

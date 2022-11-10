@@ -1,0 +1,131 @@
+\hypertarget{classMaintenance}{}\doxysection{Maintenance Class Reference}
+\label{classMaintenance}\index{Maintenance@{Maintenance}}
+
+
+a maintenance employee of Business Corp  
+
+
+
+
+{\ttfamily \#include \char`\"{}Employee/\+Maintenance.\+h\char`\"{}}
+
+
+
+Inheritance diagram for Maintenance\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{classMaintenance__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Maintenance\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{classMaintenance__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMaintenance_a8b51c17cc3e17405ce39fb2ec973df99}{Maintenance}} ()
+\item 
+\mbox{\hyperlink{classMaintenance_aa460b120af26b40929f0f74d5b67873b}{Maintenance}} (int ID, int years, double hourly\+Rate, float hours\+Worked, int issues\+Solved)
+\item 
+double \mbox{\hyperlink{classMaintenance_ad6536670b079f3ef317b078e2011ff36}{calculate\+Pay}} ()
+\item 
+void \mbox{\hyperlink{classMaintenance_a04da56141e83f5cf74c86defb53c8abd}{print}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classMaintenance_a3b5f844b440ad3a7ffc143f6bea38d99}\label{classMaintenance_a3b5f844b440ad3a7ffc143f6bea38d99}} 
+int {\bfseries issues\+Solved}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+a maintenance employee of Business Corp 
+
+This class represents a maintenance employee of Business Corp 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classMaintenance_a8b51c17cc3e17405ce39fb2ec973df99}\label{classMaintenance_a8b51c17cc3e17405ce39fb2ec973df99}} 
+\index{Maintenance@{Maintenance}!Maintenance@{Maintenance}}
+\index{Maintenance@{Maintenance}!Maintenance@{Maintenance}}
+\doxysubsubsection{\texorpdfstring{Maintenance()}{Maintenance()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Maintenance\+::\+Maintenance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+a default constructor to set all member variables to default values
+
+\begin{DoxyPostcond}{Postcondition}
+all member variables are set to -\/1 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classMaintenance_aa460b120af26b40929f0f74d5b67873b}\label{classMaintenance_aa460b120af26b40929f0f74d5b67873b}} 
+\index{Maintenance@{Maintenance}!Maintenance@{Maintenance}}
+\index{Maintenance@{Maintenance}!Maintenance@{Maintenance}}
+\doxysubsubsection{\texorpdfstring{Maintenance()}{Maintenance()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Maintenance\+::\+Maintenance (\begin{DoxyParamCaption}\item[{int}]{ID,  }\item[{int}]{years,  }\item[{double}]{hourly\+Rate,  }\item[{float}]{hours\+Worked,  }\item[{int}]{issues\+Solved }\end{DoxyParamCaption})}
+
+a parameterized constructor to sets all member variables to corresponding arguments
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & ID the employee\textquotesingle{}s ID \\
+\hline
+{\em int} & years the amount of years employee has worked at company \\
+\hline
+{\em double} & hourly\+Rate pay by hour \\
+\hline
+{\em float} & hours\+Worked hours worked today \\
+\hline
+{\em int} & issues\+Solved the number of issues \mbox{\hyperlink{classMaintenance}{Maintenance}} person has solved \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPostcond}{Postcondition}
+all member variables are assigned appropriate values 
+\end{DoxyPostcond}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classMaintenance_ad6536670b079f3ef317b078e2011ff36}\label{classMaintenance_ad6536670b079f3ef317b078e2011ff36}} 
+\index{Maintenance@{Maintenance}!calculatePay@{calculatePay}}
+\index{calculatePay@{calculatePay}!Maintenance@{Maintenance}}
+\doxysubsubsection{\texorpdfstring{calculatePay()}{calculatePay()}}
+{\footnotesize\ttfamily double Maintenance\+::calculate\+Pay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+mathod to determine the pay of maintenance person based on issues\+Solved
+
+\begin{DoxyReturn}{Returns}
+double the earned pay 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classEmployee_a01c2c44e15434237db28832f6972e960}{Employee}}.
+
+\mbox{\Hypertarget{classMaintenance_a04da56141e83f5cf74c86defb53c8abd}\label{classMaintenance_a04da56141e83f5cf74c86defb53c8abd}} 
+\index{Maintenance@{Maintenance}!print@{print}}
+\index{print@{print}!Maintenance@{Maintenance}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void Maintenance\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+method to print the maintenance employee data
+
+\begin{DoxyReturn}{Returns}
+void the data is displayed 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classEmployee_a79556ad700627dba88049f487a34a762}{Employee}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Maintenance_8h}{Maintenance.\+h}}\item 
+\mbox{\hyperlink{Maintenance_8cpp}{Maintenance.\+cpp}}\end{DoxyCompactItemize}
